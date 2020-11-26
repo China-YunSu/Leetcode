@@ -3,6 +3,11 @@ package man.kuke.threeHeight.core;
 import java.util.LinkedList;
 
 public class ThreeHeight2 {
+    /**
+     * 二叉树队列层次递归
+     * @param root 树节点
+     * @return 树高度
+     */
     public int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;

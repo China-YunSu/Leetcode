@@ -23,12 +23,12 @@ public class BinaryBuild {
      * 递归每次剥离出一个根节点 构建树结构，直至左树 或右数 为空
      * 本质上确定递归每次确定先序遍历和中序遍历的区域界限
      *
-     * @param preorder 
-     * @param inorder
-     * @param preLeft
-     * @param preRight
-     * @param inoLeft
-     * @param inoRight
+     * @param preorder 先序数组
+     * @param inorder  中数组
+     * @param preLeft  先序左边界
+     * @param preRight  先序右边界
+     * @param inoLeft  中序左边界
+     * @param inoRight  中序右边界
      * @return
      */
     public TreeNode build(int[] preorder, int[] inorder,int preLeft,int preRight, int inoLeft,int inoRight) {
